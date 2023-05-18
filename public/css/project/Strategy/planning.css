@@ -1,0 +1,161 @@
+.content-body{
+	padding: 10px 2rem;
+}
+.line{
+	width: 94%;
+	height: 10px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+h4{
+	margin: 15px;
+}
+#table_wrapper{
+    margin-top: 2rem;
+    padding: 21px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 12px #ababab;
+}
+
+/*Lập kế hoạch*/
+.calendar{
+    float: right;
+    width: 12rem;
+    height: 2rem;
+    background: lightblue;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border: solid 1px lightgrey;
+    margin-bottom: 4rem;
+    outline: none !important;
+}
+
+/* Cập nhật đối sánh */
+.modal-dialog h6{
+    position: absolute;
+    top: -12px;
+    left: 29px;
+    z-index: 10;
+    background: white;
+    text-align: center;
+    border-top: solid;
+    width: 101px;
+    font-weight: bold;
+}
+.modal-fieldset{
+    background: white;
+    height: 28rem;
+    display: flex;
+    justify-content: space-evenly;  
+    box-shadow: 3px 2px 12px #d0d0d0;
+    position: relative;
+    background: rgb(240, 58, 80);
+}
+.modal-fieldset p{
+    font-weight: bold;
+    color: white;
+}
+.modal-fieldset legend{
+    margin-left: 34px;
+    font-size: 18px !important;
+    width: 14%;
+    color: white;
+}
+.modal-content1{
+    width: 40%;
+}
+.modal-content1 .block-perform{
+    width: 17rem;
+    height: 22rem;
+    border: solid;
+}
+.block-arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal-content2{
+    width: 40%;
+}
+.modal-content2 p{
+    margin-left: 3rem;
+}
+.modal-content2 .block-personnel{
+    width: 17rem;
+    height: 22rem;
+    border: solid;
+}
+#myModal .modal-content{
+    background: transparent;
+}
+#function-id{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+/* Thực hiện đối sánh */
+.item-group-button{
+	display: flex;
+}
+.right-block{
+	justify-content: flex-end;
+    width: 82%;
+}
+/* Tổng hợp kết quả */
+.block-standard{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.block-standard .block-css{
+    width: 15rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border: solid 1px lightgrey;
+    outline: none;
+}
+.block-standard .standard-left{
+    background: lightseagreen;
+}
+.block-standard .standard-mid{
+    background: lightsalmon;
+}
+.block-standard .standard-right{
+    background: lightblue;
+}
+.charts{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.charts p{
+    margin: 0;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+.charts select{
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border: solid 1px lightgrey;
+    outline: none;
+}
+
+#myChart{
+    max-width: 89rem !important;
+    height: 38rem !important;
+    background: rgb(238, 28, 206);
+    padding: 16px;
+}
+.benchmark{
+    float: right;
+    margin-right: 3rem;
+    border-bottom: solid 2px lightblue;
+    margin-bottom: 10px;
+}
+

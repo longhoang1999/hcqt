@@ -1,0 +1,30 @@
+#kt_content_container{
+    padding: 0;
+}
+.btn-block{
+    display: block !important;
+    width: 100% !important;
+}
+.close{
+    border: none;
+    background: transparent;
+}
+section.content{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: 100% !important;
+}
+.sub-drop-icon{
+    z-index: 105;
+    position: fixed;
+    inset: 0px 0px auto auto;
+    margin: 0px;
+    transform: translate3d(-30px, 65px, 0px);
+}
+.noti-child{
+    z-index: 105;
+    position: fixed;
+    inset: 0px 0px auto auto;
+    margin: 0px;
+    transform: translate3d(-81px, 65px, 0px);
+}

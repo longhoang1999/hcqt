@@ -1,0 +1,77 @@
+.select2-selection{
+    height: 3rem !important;
+}
+.dt-tchi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#cke_textcontent, #cke_up_textcontent{
+    width: 100% !important;
+    margin: 0 !important;
+}
+#cke_1_top{
+    background: #f9f9f9 !important;
+    border-bottom: none !important;
+}
+
+
+#modaleCreate .btn-standard, #modalUpdate .btn-standard {
+    width: 100%;
+    padding: 10px 15px;
+    padding-right: 3rem;
+    color: #23527c;
+    background: #f5f5f5;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 3px 3px 0 0;
+    position: relative;   
+}
+#modaleCreate .btn-standard span, #modalUpdate .btn-standard span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+#modaleCreate .btn-standard .icon, #modalUpdate .btn-standard .icon{
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%) rotate(0);
+    color: #7e7b7b;
+    transition: all 0.5s;
+} 
+
+.collapse{
+    padding: 5px 10px;
+    padding-left: 15px;
+}
+.collapse .item-block-render{
+    padding: 6px 15px;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+}
+.collapse .item-block-render:first-child{
+    margin-top: 0;
+}
+.item-block-render span{
+    font-size: 13px;
+    font-weight: normal;
+    color: #23527c;
+     overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.modal-xl {
+    max-width: 1360px !important;
+}

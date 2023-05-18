@@ -1,0 +1,239 @@
+*{
+	box-sizing: border-box;
+}
+.sum{
+	width: 90%;
+	margin: auto;
+}
+.comment{
+	display: flex;
+	position: relative;
+}
+.comment textarea{
+	padding-left: 13px;
+	min-height: 5rem;
+	margin: 0 7px;
+	outline: none;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+  border: solid 0.5px lightgray;
+}
+.w-20rem{
+	width: 70rem !important;
+}
+.comment button{
+	border: solid 0.5px lightgrey;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	outline: none;
+  padding: 0 2rem;
+  max-height: 3rem;
+}
+.feedback{
+	display: flex;
+	margin-top: 25px;
+}
+.feedback .feedback-block{
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	margin-left: 7px;
+}
+.feedback .feedback-top{
+	background: white;
+  padding: 20px;
+  border-radius: 3px 3px 0 0 ;
+}
+.feedback .feedback-top .button-like{
+	font-size: 11px;
+	padding: 2px 6px;
+  border: solid 1px lightgray;
+  outline: none;
+  border-radius: 2px;
+}
+.feedback .feedback-top .button-like:hover{
+	background-color: #206ae5;
+	color: white;
+}
+.feedback .feedback-top .button-comment{
+	font-size: 11px;
+    padding: 2px 6px;
+    border: solid 1px lightgray;
+    outline: none;
+}
+.feedback .feedback-top .button-comment:hover{
+	background-color: red;
+	color: white;
+}
+.feedback-bottom{
+	background: gainsboro;
+}
+.feedback-bottom .image{
+	display: flex;
+	padding: 12px;
+	position: relative;
+}
+.feedback-bottom .image img{
+	width: 2rem;
+    height: 3rem;
+    object-fit: contain;
+    margin-right: 7px;
+}
+.feedback-bottom .image .arow{
+	position: absolute;
+	right: 31px;
+    top: 17px;
+}
+.feedback-bottom .comment2{
+	display: flex;
+	padding-bottom: 13px;
+	position: relative;
+}
+.feedback-bottom .comment2 textarea{
+	width: 61rem;
+    height: 32px;
+    padding-left: 13px;
+    margin: 0 7px;
+    outline: none;
+}
+.feedback-bottom .comment2 button{
+	width: 3rem;
+	background: chartreuse;
+	height: 2rem;
+	border: solid 0.5px lightgrey;
+	outline: none;
+	right: 13px;
+}
+.comment-buttom{
+	display: flex;
+	width: 72rem;
+	margin-top: 25px;
+}
+.comment-buttom .block-comment{
+	margin-left: 7px;
+	line-height: 25px;
+	width: 100%;
+	background: white;
+	padding: 12px;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+}
+.comment-buttom .button-like2{
+	font-size: 11px;
+    width: 57px;
+    border: solid 1px lightgray;
+    outline: none;
+}
+.comment-buttom .button-comment2{
+	font-size: 11px;
+    width: 71px;
+    border: solid 1px lightgray;
+    outline: none;
+}
+.continue{
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+}
+.continue button{
+	width: 7rem;
+    height: 2rem;
+    border: solid 1px lightgray;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    outline: none;
+}
+.chat{
+	display: flex;
+	margin-bottom: 3rem;
+	padding: 0 51px;
+}
+
+.chat .user{
+	width: 20%;
+}
+.chat .user img{
+	width: 2rem;
+    border-radius: 100%;
+    margin-right: 6px;
+}
+.chat .user .group{
+	display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.chat .user .group span{
+	margin-right: 16px;
+    font-size: 21px;
+}
+.chat .user .list-group{
+	margin-top: 19px;
+	padding: 0 15px;
+	overflow-x: hidden;
+    overflow-y: auto;
+    height: 28rem;
+}
+.chat .user .list-group li{
+	margin-top: 30px;
+}
+.chat .user .list-group li a{
+	display: flex;
+}
+.chat .user .list-group li a strong{
+	line-height: 12px;
+	margin-left: 9px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-group::-webkit-scrollbar {
+  width: 5px;               /* Chiều rộng vùng chứa scrollbar */
+}
+.list-group::-webkit-scrollbar-track {
+  background: gray;        /* Màu nền ngoài của thanh scrollbar */
+}
+
+.list-group::-webkit-scrollbar-thumb {
+  background-color: #ffa500;    /* Màu của thanh cuộn (scroll thumb) */
+  border-radius: 5px;       /* Bo góc scroll thumb */
+  border: 2px solid #ccc;  /* Không hỗ trợ padding, margin, transition nên dùng viền cùng màu nên để padding scroll thumb */
+}
+.list-group::-webkit-scrollbar-thumb:hover {
+    background-color: #ff8000; /* Hiệu ứng di chuột đổi màu*/
+}
+.chat .search{
+	width: 80%;
+	background-color: lightgrey;
+	height: 36rem;
+	text-align: center;
+}
+
+.chat .search .buttons{
+	width: 9rem;
+    height: 11rem;
+    margin-top: 6rem;
+    border-radius: 100%;
+    background: lightblue;
+}
+.chat .search p{
+	margin-top: 11px;
+}
+.comment2{
+	display: flex;
+}
+textarea[name="content"]{
+	margin:0 5px;
+	width: 80%;
+
+}
+.avatar{
+  height: 65px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.avatar img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.dropdown{
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+}

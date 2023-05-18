@@ -1,0 +1,106 @@
+.content-body-css{
+	padding: 21px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 12px #ababab;
+}
+
+
+.css-img img{
+	width: 80% !important;
+}
+
+.body-flex{
+	/* display: flex;
+	justify-content: space-evenly; */
+    
+}
+
+
+.body-flex .css_scoll{
+	display: none;
+	width: 20%;
+	background: white;
+	padding: 17px;
+	line-height: 54px;
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.css_arrow{
+	position: relative;
+}
+
+.css_arrow .arrow-right{
+	position: absolute;
+	right: 6px;
+}
+.arrow_active #tudanhgia_bctdg{
+	margin-left: 4px;
+	list-style: none;
+}
+.content-body{
+    padding: 27px 3rem;
+    width: 100%;
+}
+/*Để tạm thời */
+.col-md-8{
+	max-width: fit-content;
+	flex: auto;
+}
+.onLink{
+	background: none !important;
+}
+.pr-2{
+	padding-right: 1.7rem;
+}
+/* .pl-2{
+	padding-left: 0.5rem;
+} */
+#table_wrapper, #table2_wrapper{
+    padding: 21px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 12px #ababab;
+}
+.table.dataTable {
+    border-collapse: collapse !important;
+	clear: both;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    border-collapse: separate !important;
+    border-spacing: 0;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+    border-bottom-width: 0;
+    padding: 0.75rem;
+}
+table.table-bordered.dataTable th, table.table-bordered.dataTable td {
+    border-left-width: 1px;
+    padding: 0.75rem;
+}
+
+table.dataTable td, table.dataTable th {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border-bottom: 2px solid #dee2e6;
+}
+th{
+	text-align: center;
+}
+thead{
+    font-size: 15px !important;
+    font-weight: 600;
+}
+span , a, p,b,li,i ,th,td,small{
+    font-size: 16px !important;
+}
+td a i {
+    font-size: 30px !important;
+}
